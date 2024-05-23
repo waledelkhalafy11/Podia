@@ -8,22 +8,24 @@ const Navbar = () => {
     setNav(!nav);
   };
 
+
+
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black font-semibold">
+    <div className="sticky top-0 left-0 bg-Pgray flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black font-semibold">
       <div className="flex">
         <h1 className="w-full text-3xl p-1 font-bold text-Pblue">podia</h1>
         <ul className="pl-4 hidden md:flex text-gray-500">
-          <li className="p-4">Features</li>
-          <li className="p-4">Examples</li>
-          <li className="p-4">Pricing</li>
-          <li className="p-4">Demo</li>
-          <li className="p-4">Resources</li>
+          <li className="p-4 hover:text-Pblue cursor-pointer">Features</li>
+          <li className="p-4 hover:text-Pblue cursor-pointer">Examples</li>
+          <li className="p-4 hover:text-Pblue cursor-pointer">Pricing</li>
+          <li className="p-4 hover:text-Pblue cursor-pointer">Demo</li>
+          <li className="p-4 hover:text-Pblue cursor-pointer">Resources</li>
         </ul>
       </div>
       <ul className="hidden md:flex">
         <li className="p-4">
           {" "}
-          <a className=" hover:cursor-pointer text-gray-500">Login</a>{" "}
+          <a className=" hover:cursor-pointer text-gray-500 hover:text-Pblue">Login</a>{" "}
         </li>
         <li className="p-4">
           {" "}
@@ -43,15 +45,15 @@ const Navbar = () => {
         }
       >
         <h1 className="w-full text-3xl font-bold text-Pblue m-4">podia.</h1>
-        <li className="p-4 border-b border-gray-600">Features</li>
-        <li className="p-4 border-b border-gray-600">Examples</li>
-        <li className="p-4 border-b border-gray-600">Pricing</li>
-        <li className="p-4 border-b border-gray-600">Demo</li>
-        <li className="p-4 border-b border-gray-600">Resources</li>
+        <li className="p-4 border-b border-gray-600 hover:text-Pblue cursor-pointer">Features</li>
+        <li className="p-4 border-b border-gray-600 hover:text-Pblue cursor-pointer">Examples</li>
+        <li className="p-4 border-b border-gray-600 hover:text-Pblue cursor-pointer">Pricing</li>
+        <li className="p-4 border-b border-gray-600 hover:text-Pblue cursor-pointer">Demo</li>
+        <li className="p-4 border-b border-gray-600 hover:text-Pblue cursor-pointer">Resources</li>
         <div className="flex">
           <li className="p-4">
             {" "}
-            <a>Login</a>{" "}
+            <a className="hover:text-Pblue cursor-pointer">Login</a>{" "}
           </li>
           <li className="p-4">
             {" "}

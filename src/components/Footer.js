@@ -73,12 +73,12 @@ const Footer = () => {
   ];
   return (
     <div className="bg-Pneaun">
-      <div className="flex-warp justify-between items-left text-left py-20 max-w-[1420px] mx-auto px-24">
+      <div className="lg:flex-warp justify-between items-left text-left lg:py-20 max-w-[1420px] mx-auto px-24">
         {footerData.map((item) => (
           <>
-            <div className="flex items-start text-xl font-Normal">
+            <div className="lg:flex items-start text-xl font-Normal">
               <h1 className=" p-2 font-medium  text-black">{item.name}</h1>
-              <ul className="pl-4 flex underline  text-gray-500">
+              <ul className="pl-4 md:flex underline  text-gray-500">
                 {item.links.map((l) => (
                   <li className="p-2 hover:text-Pblue">{l}</li>
                 ))}
