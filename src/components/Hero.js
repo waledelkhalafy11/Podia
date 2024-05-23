@@ -5,7 +5,7 @@ import digital_products from "../Assets/digital_products-hero.png";
 
 const Hero = () => {
   return (
-    <div className="flex justify-between items-center py-9 max-w-[1240px] mx-auto px-4">
+    <div className="flex-warp lg:flex justify-between items-center py-9 max-w-[1240px] mx-auto px-4">
       <div className="basis-1/2 mx-2">
         <p className="font-bold text-gray-500 font-sans">DIGITAL PRODUCTS</p>
         <h1 className="pt-5 text-gray-800 font-normal font-serif text-6xl">
