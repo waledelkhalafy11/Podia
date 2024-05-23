@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="flex-warp lg:pt-20 lg:flex justify-between items-center py-9 max-w-[1240px] mx-auto px-4">
       <div className="basis-1/2 mx-2">
         <p className="font-bold text-gray-500 font-sans">DIGITAL PRODUCTS</p>
-        <h1 className="pt-5 text-gray-800 font-normal font-serif text-6xl">
+        <h1 className="pt-5 text-gray-800 font-medium font-serif text-5xl">
           Sell online courses, coaching sessions, webinars, workshops, ebooks,
           and anything you can think of on Podia
         </h1>
