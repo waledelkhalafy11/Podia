@@ -13,7 +13,7 @@ const Navbar = () => {
   return (
     <div className="sticky top-0 left-0 bg-Pgray flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black font-semibold">
       <div className="flex">
-        <h1 className="w-full text-3xl p-1 font-bold text-Pblue">podia</h1>
+        <h1 className="w-full text-3xl p-1 cursor-pointer hover:text-Pblack font-bold text-Pblue">podia</h1>
         <ul className="pl-4 hidden md:flex text-gray-500">
           <li className="p-4 hover:text-Pblue cursor-pointer">Features</li>
           <li className="p-4 hover:text-Pblue cursor-pointer">Examples</li>
@@ -29,7 +29,7 @@ const Navbar = () => {
         </li>
         <li className="p-4">
           {" "}
-          <button className="bg-Pblue px-4 py-1 text-white rounded-full hover:bg-blue-500  hover:cursor-pointer">
+          <button className="bg-Pblue px-4 py-1 text-white rounded-full hover:bg-Pblack  hover:cursor-pointer">
             Sign up free
           </button>
         </li>

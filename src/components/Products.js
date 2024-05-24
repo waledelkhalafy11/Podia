@@ -77,12 +77,12 @@ const Products = () => {
               <h1 className="py-2 text-gray-500 font-normal font-sans text-xl">
                 {p.paragraph}
               </h1>
-              <button className="my-5 px-6 py-3 text-xl font-sans font-medium text-Pblue rounded-full   hover:cursor-pointer">
+              <button className="my-5 px-6 py-3 text-xl hover:px-7 delay-150 transition ease-in-out duration-300 font-sans font-medium text-Pblue rounded-full   hover:cursor-pointer">
                 {p.link} <span className="">→</span>
               </button>
             </div>
             <div className="basis-1/2 m-4">
-              <img src={p.img} />
+              <img className="shadow-md rounded-lg cursor-pointer hover:shadow-xl transition-shadow delay-150 ease-in-out duration-300" src={p.img} />
             </div>
           </div>
           {p.feedback ? (

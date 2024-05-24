@@ -21,7 +21,7 @@ const Hero = () => {
             Get your free account
           </button>
       </div >
-      <div className="basis-1/2 m-4"><img src={digital_products}/></div>
+      <div className="basis-1/2 m-4"><img className="shadow-md rounded-sm hover:shadow-xl cursor-pointer transition-shadow delay-150 ease-in-out duration-300" src={digital_products}/></div>
     </div>
   );
 };

@@ -80,7 +80,7 @@ const Footer = () => {
               <h1 className=" p-2 font-medium  text-black">{item.name}</h1>
               <ul className="pl-4 md:flex underline  text-gray-500">
                 {item.links.map((l) => (
-                  <li className="p-2 hover:text-Pblue">{l}</li>
+                  <li className="p-2 hover:text-Pblue cursor-pointer">{l}</li>
                 ))}
               </ul>
             </div>
@@ -94,8 +94,8 @@ const Footer = () => {
           </h1>
 
           <ul className="pl-4 flex underline  text-gray-500">
-            <li className="p-2 hover:text-Pblue">Terms</li>
-            <li className="p-2 hover:text-Pblue">Privacy</li>
+            <li className="p-2 hover:text-Pblue cursor-pointer">Terms</li>
+            <li className="p-2 hover:text-Pblue cursor-pointer">Privacy</li>
           </ul>
         </div>
       </div>

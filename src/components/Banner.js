@@ -2,8 +2,8 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className="flex-warp justify-between items-center text-center py-20 max-w-[1420px] mx-auto px-24">
-      <div className="rounded-lg bg-Pblack ">
+    <div className="flex-warp  justify-between items-center text-center py-20 max-w-[1420px] mx-auto px-24">
+      <div className="rounded-lg bg-Pblack shadow-md">
         <h2 className="pt-15  text-Pgray font-[500] p-12 font-serif text-4xl">
           Get your free Podia account
           <p className="font-normal pt-4 lg:px-20 text-lg text-Pgray font-sans">
